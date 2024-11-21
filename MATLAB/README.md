@@ -11,4 +11,4 @@ Ensure all files are retained within their respective directories to maintain th
 
 ## Additional Information
 
-- Please ensure you have the necessary version of MATLAB installed to run the simulations. Our simulations were conducted using MATLAB R2022a. For more information about the software, including installation instructions and features, visit the [MATLAB](https://nl.mathworks.com/products/matlab.html) website.
+- Please ensure you have the necessary version of MATLAB installed to run the simulations. Our simulations were conducted using MATLAB R2023b. For more information about the software, including installation instructions and features, visit the [MATLAB](https://nl.mathworks.com/products/matlab.html) website.
