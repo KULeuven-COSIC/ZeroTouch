@@ -4,7 +4,7 @@ This folder contains simulation files for transmitters positioned inside the apa
 
 ## Running the Simulation
 
-To begin the simulation process, open the `Simulation.setup` file. This action will launch the Wireless InSite software with the pre-configured settings for the outdoor simulation scenario. Once the software is open, the simulation can be initiated from within the Wireless InSite interface.
+To begin the simulation process, open the `Simulation.setup` file. This action will launch the Wireless InSite software with the pre-configured settings for the indoor simulation scenario. Once the software is open, the simulation can be initiated from within the Wireless InSite interface.
 
 ## Directory Contents
 
