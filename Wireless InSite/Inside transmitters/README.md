@@ -8,7 +8,7 @@ To begin the simulation process, open the `Simulation.setup` file. This action w
 
 ## Directory Contents
 
-Apart from the `InSide.setup` file, this directory contains a variety of other files, including:
+Apart from the `Simulation.setup` file, this directory contains a variety of other files, including:
 
 - **Configuration and Wireless InSite-Generated Files**: Files that are essential for defining and running the simulations. It contains configuration files with settings and parameters that outline the simulation environment, antenna characteristics, and other critical variables. Additionally, it houses files created by Wireless InSite during the simulation process, encompassing both setup configurations and output data.
 - **Log Files**: Generated during simulation runs, these files provide detailed logs of the simulation process.
