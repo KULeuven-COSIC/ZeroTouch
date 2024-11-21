@@ -1,6 +1,6 @@
 # Outside Transmitters
 
-This folder contains simulation files for transmitters positioned outside the apartment. These simulations examine wireless propagation for outdoor transmitter scenarios.
+This folder contains simulation files for transmitters positioned inside the apartment. These simulations examine wireless propagation for outdoor transmitter scenarios.
 
 ## Running the Simulation
 
