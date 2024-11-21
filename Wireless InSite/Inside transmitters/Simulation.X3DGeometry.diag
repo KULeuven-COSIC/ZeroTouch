@@ -1,0 +1,33 @@
+
+
+wibatch version 3.4.4.13 - r80045
+  Built with Microsoft Visual Studio 1900
+  Built with Qt 4.8.7
+  Using Qt 4.8.7
+
+2024.07.18 15:37:03.640 Hostname: duvel (pid: 24796)
+2024.07.18 15:37:03.640 Set working directory: C:/Users/nantonij/Documents/Wireless InSite/Simulations/New/Try 3 (materials)
+2024.07.18 15:37:03.640 Thu 18. Jul 15:37:03 2024
+
+2024.07.18 15:37:03.640 Creating geolocated X3D geometry cache (18 threads): ./Simulation.X3DGeometry.cache
+2024.07.18 15:37:03.784 Loaded geometry: ./floor.flp
+2024.07.18 15:37:03.785 Loaded geometry: ./roof.flp
+2024.07.18 15:37:03.790 Checking for duplicate facets
+2024.07.18 15:37:04.155 Scene: removed 932 duplicate and 0 collapsed of 51482 original facets.
+2024.07.18 15:37:04.436   Creating candidate facets for edge creation
+2024.07.18 15:37:04.648     Done creating candidate facets for edge creation
+2024.07.18 15:37:04.679   Creating scene edges
+2024.07.18 15:37:04.765     Done creating scene edges
+2024.07.18 15:37:04.821   Finishing scene edges
+2024.07.18 15:37:04.973     Done finishing scene edges
+2024.07.18 15:37:05.099 Writing 50550 triangles to cache file
+2024.07.18 15:37:05.119 Writing edgeset (39522 edges) to cache
+2024.07.18 15:37:05.148 Writing property list (1 properties) to cache
+2024.07.18 15:37:05.148   Property: 0, name=po_object_type, 50550 entries
+2024.07.18 15:37:05.163 Successfully generated geometry cache; exiting.
+
+2024.07.18 15:37:05.163 Thu 18. Jul 15:37:05 2024
+
+
+
+2024.07.18 15:37:05.163 Total Runtime: : 00:00:01.523
