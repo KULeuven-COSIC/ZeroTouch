@@ -1,6 +1,6 @@
 # Directory Structure
 
-This repository is organized into subdirectories, each dedicated to a specific type of simulation or experiment using Wireless InSite.
+This repository is organised into subdirectories, each dedicated to a specific aspect of the project, such as simulation data, models, or visualisations.
 
 ## Subdirectories Overview
 
