@@ -1,0 +1,245 @@
+Format type:keyword version: 1.1.0
+begin_<project> Untitled Project
+project_id 4062
+begin_<globals> 
+longitude 0
+latitude 0
+end_<globals>
+FirstAvailableFeatureNumber 3
+FirstAvailableUnknownLayoutNumber 0
+FirstAvailableStudyAreaNumber 1
+FirstAvailableAntennaNumber 4
+FirstAvailableWaveformNumber 5
+begin_<caches> 
+begin_<cache> 
+type X3DGeometry
+feature -1
+filename ./Simulation.X3DGeometry.cache
+valid true
+end_<cache>
+end_<caches>
+begin_<studyarea> Simulation 1
+StudyAreaNumber 0
+active
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type local
+num_partitions 2
+num_ranks 2
+extra_queue_options 
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+spatial_resolution 2
+end_<diffuse_scattering>
+autoboundary 0
+begin_<model> 
+x3d
+num_threads 18
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+508.379 724.138 5.25
+max_reflections 6
+max_transmissions 3
+max_wedge_diffractions 1
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power yes
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin 3
+zmax 8
+nVertices 8
+515.689128336587 729.27667864285 0
+515.52619537299 729.155700006094 0
+500.741509655736 720.833195249532 0
+509.387712721817 708.385270885696 0
+517.332360973738 710.214869386439 0
+522.226094861665 716.340115162343 0
+522.060115134461 719.805380034111 0
+515.713563061129 729.31946706522 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<feature> 
+feature 1
+floorplan
+active
+filename ./floor.flp
+end_<feature>
+begin_<feature> 
+feature 2
+floorplan
+active
+filename ./roof.flp
+end_<feature>
+begin_<txrx_sets> 
+filename ./Simulation.txrx
+FirstAvailableTxRxNumber 19
+end_<txrx_sets>
+FirstAvailableCommSystemNumber 0
+begin_<antenna> Omnidirectional
+antenna 3
+type omnidirectional
+waveform 4
+polarization vertical
+power_threshold -250
+cable_loss 0
+VSWR 1
+gain 0
+component TotalGain
+gain_range 40
+show_arrow no
+is_sphere no
+eplane_hpbw 90
+eplane_fnbw 180
+end_<antenna>
+begin_<Waveform> 2.4 GHz
+Sinusoid
+waveform 4
+begin_<FrequencySweep> 
+SweepType StartIncrementCount
+StartValue 10000.000
+Increment 10000.000
+Count 10
+EndValue 100000.000
+end_<FrequencySweep>
+CarrierFrequency 2400000000.000
+phase 0.000
+bandwidth 1000000.000
+end_<Waveform>
+FirstAvailableFilterNumber 0
+begin_<requests> 
+cartesian
+sealevel
+local
+CalculationMode New
+MaxRenderedPaths 25
+FieldAnimationIncrement 10
+FieldAnimationTimeAveraged yes
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+FieldAnimation no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectricFieldVsFrequency no
+ElectricFieldVsTime no
+EMFields no
+FSPathloss no
+FSPower no
+InputData no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power yes
+PowerDelayProfile no
+TimeOfArrival no
+XPathloss no
+TerrainProfile no
+end_<requests>
+begin_<Scales> 
+begin_<MpeThreshhold> 
+AutoScaling 0
+DrawValues 0
+AutoUpdating 0
+Discrete 1
+UseGlobalOpacity 1
+ManualValuesSet 1
+ClampedHigh 1
+ClampedLow 1
+Alpha 1.000e+00
+ManualMin 0.000e+00
+ManualMax 2.000e+02
+TextColor 1.000 1.000 1.000
+Colors 4
+0.300 0.000 0.500
+0.000 1.000 0.000
+1.000 1.000 0.000
+1.000 0.000 0.000
+PartitionValues 
+3
+0.001 50.000 100.000 
+end_<MpeThreshhold>
+begin_<Special1> 
+AutoScaling 1
+DrawValues 0
+AutoUpdating 1
+Discrete 0
+UseGlobalOpacity 0
+ManualValuesSet 0
+ClampedHigh 1
+ClampedLow 1
+Alpha 8.000e-01
+ManualMin 0.000e+00
+ManualMax 0.000e+00
+TextColor 1.000 1.000 1.000
+Colors 6
+0.300 0.000 0.500
+0.000 0.000 1.000
+0.000 1.000 0.000
+1.000 1.000 0.000
+1.000 0.500 0.000
+1.000 0.000 0.000
+PartitionValues 
+5
+1.000e-28 1.000e-28 1.000e-28 1.000e-28 1.000e-28 
+end_<Special1>
+end_<Scales>
+end_<project>

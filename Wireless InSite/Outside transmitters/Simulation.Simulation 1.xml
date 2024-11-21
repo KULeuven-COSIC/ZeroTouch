@@ -1,0 +1,4032 @@
+<!DOCTYPE InSite>
+<InSite version="3.4.4.13" revision="80045" shared="false" location="branches/3.4.4.x_bugfix" host="JW7-57" date="Thu Sep 7 2023">
+  <remcom::rxapi::Job>
+    <Model>
+      <remcom::rxapi::X3D>
+        <APGAccelerationParameters>
+          <remcom::rxapi::APGAccelerationParameters>
+            <APGAccelerationBinaryOutput>
+              <remcom::rxapi::APGAccelerationBinaryOutputMode Value="None"/>
+            </APGAccelerationBinaryOutput>
+            <APGAccelerationWorkflow>
+              <remcom::rxapi::APGAccelerationWorkflowMode Value="Full"/>
+            </APGAccelerationWorkflow>
+            <AdjacencyDistance>
+              <remcom::rxapi::Double Value="10"/>
+            </AdjacencyDistance>
+            <BinaryOutputRate>
+              <remcom::rxapi::Double Value="0"/>
+            </BinaryOutputRate>
+            <PathDepth>
+              <remcom::rxapi::Integer Value="25"/>
+            </PathDepth>
+            <WriteDatabase>
+              <remcom::rxapi::Boolean Value="true"/>
+            </WriteDatabase>
+          </remcom::rxapi::APGAccelerationParameters>
+        </APGAccelerationParameters>
+        <AdvancedPathDiscovery>
+          <remcom::rxapi::AdvancedPathDiscoveryParameters>
+            <TerminalRefraction>
+              <remcom::rxapi::Boolean Value="false"/>
+            </TerminalRefraction>
+          </remcom::rxapi::AdvancedPathDiscoveryParameters>
+        </AdvancedPathDiscovery>
+        <CPUThreads>
+          <remcom::rxapi::Integer Value="18"/>
+        </CPUThreads>
+        <Diffractions>
+          <remcom::rxapi::Integer Value="1"/>
+        </Diffractions>
+        <DiffuseScatteringParameters>
+          <remcom::rxapi::DiffuseScatteringParameters>
+            <DiffuseScatteringDiffractions>
+              <remcom::rxapi::Integer Value="1"/>
+            </DiffuseScatteringDiffractions>
+            <DiffuseScatteringEnabled>
+              <remcom::rxapi::Boolean Value="false"/>
+            </DiffuseScatteringEnabled>
+            <DiffuseScatteringFinalInteractionOnly>
+              <remcom::rxapi::Boolean Value="true"/>
+            </DiffuseScatteringFinalInteractionOnly>
+            <DiffuseScatteringReflections>
+              <remcom::rxapi::Integer Value="2"/>
+            </DiffuseScatteringReflections>
+            <DiffuseScatteringTransmissions>
+              <remcom::rxapi::Integer Value="0"/>
+            </DiffuseScatteringTransmissions>
+          </remcom::rxapi::DiffuseScatteringParameters>
+        </DiffuseScatteringParameters>
+        <FoliageModel>
+          <remcom::rxapi::FoliageModelEnum Value="WeissbergerModel"/>
+        </FoliageModel>
+        <Humidity>
+          <remcom::rxapi::Double Value="50"/>
+        </Humidity>
+        <InitialRayMode>
+          <remcom::rxapi::PhiThetaSweepRayMode>
+            <StartPhi>
+              <remcom::rxapi::Double Value="0"/>
+            </StartPhi>
+            <StartTheta>
+              <remcom::rxapi::Double Value="0"/>
+            </StartTheta>
+            <StopPhi>
+              <remcom::rxapi::Double Value="360"/>
+            </StopPhi>
+            <StopTheta>
+              <remcom::rxapi::Double Value="180"/>
+            </StopTheta>
+          </remcom::rxapi::PhiThetaSweepRayMode>
+        </InitialRayMode>
+        <MaxSubfacetEdgeLengthMeters>
+          <remcom::rxapi::Double Value="2"/>
+        </MaxSubfacetEdgeLengthMeters>
+        <MaximumStoredPaths>
+          <remcom::rxapi::Integer Value="250"/>
+        </MaximumStoredPaths>
+        <OutputRequestList>
+          <remcom::rxapi::OutputRequestList>
+            <BinaryOutputRequestList>
+              <remcom::rxapi::BinaryOutputRequestList>
+                <BinaryOutputRequest>
+                  <remcom::rxapi::BinaryOutputRequest>
+                    <BinaryOutputRequestType>
+                      <remcom::rxapi::BinaryOutputRequestTypeEnum Value="None"/>
+                    </BinaryOutputRequestType>
+                  </remcom::rxapi::BinaryOutputRequest>
+                </BinaryOutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::BinaryOutputRequestList>
+            </BinaryOutputRequestList>
+            <ComplexE_Field>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </ComplexE_Field>
+            <ComplexImpulseResponse>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </ComplexImpulseResponse>
+            <DelaySpread>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </DelaySpread>
+            <DiffuseScatterReceivedPower>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </DiffuseScatterReceivedPower>
+            <DirectionOfArrival>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </DirectionOfArrival>
+            <DirectionOfDeparture>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </DirectionOfDeparture>
+            <Doppler>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </Doppler>
+            <E_Field>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </E_Field>
+            <E_FieldRMS>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </E_FieldRMS>
+            <E_FieldVsTime>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </E_FieldVsTime>
+            <ExcessPathLoss>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </ExcessPathLoss>
+            <ExcessPathLossWithoutAntennas>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </ExcessPathLossWithoutAntennas>
+            <ExcessTimeOfArrival>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </ExcessTimeOfArrival>
+            <FreeSpacePathLoss>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </FreeSpacePathLoss>
+            <FreeSpacePathLossWithoutAntennas>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </FreeSpacePathLossWithoutAntennas>
+            <FreeSpaceReceivedPower>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </FreeSpaceReceivedPower>
+            <FreeSpaceReceivedPowerWithoutAntennas>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </FreeSpaceReceivedPowerWithoutAntennas>
+            <H_Field>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </H_Field>
+            <H_FieldRMS>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </H_FieldRMS>
+            <MeanDirectionOfArrival>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </MeanDirectionOfArrival>
+            <MeanDirectionOfDeparture>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </MeanDirectionOfDeparture>
+            <MeanTimeOfArrival>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </MeanTimeOfArrival>
+            <PathGain>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </PathGain>
+            <PathLoss>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </PathLoss>
+            <PoyntingVector>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </PoyntingVector>
+            <PoyntingVectorRMS>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </PoyntingVectorRMS>
+            <PropagationPaths>
+              <remcom::rxapi::PropagationPathRequest>
+                <MaximumPathsPerReceiverPoint>
+                  <remcom::rxapi::Integer Value="25"/>
+                </MaximumPathsPerReceiverPoint>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </Requested>
+                <SumEFields>
+                  <remcom::rxapi::EFieldSumEnum Value="AllPaths"/>
+                </SumEFields>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::PropagationPathRequest>
+            </PropagationPaths>
+            <ReceivedPower>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </ReceivedPower>
+            <TimeOfArrival>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </TimeOfArrival>
+            <TransmissionLoss>
+              <remcom::rxapi::OutputRequest>
+                <Requested>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </Requested>
+                <ValidForModel>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ValidForModel>
+              </remcom::rxapi::OutputRequest>
+            </TransmissionLoss>
+          </remcom::rxapi::OutputRequestList>
+        </OutputRequestList>
+        <PhaseReferencePoint>
+          <remcom::rxapi::CartesianPoint>
+            <X>
+              <remcom::rxapi::Double Value="508.37864685058594"/>
+            </X>
+            <Y>
+              <remcom::rxapi::Double Value="724.1376953125"/>
+            </Y>
+            <Z>
+              <remcom::rxapi::Double Value="5.2500003576278687"/>
+            </Z>
+          </remcom::rxapi::CartesianPoint>
+        </PhaseReferencePoint>
+        <Pressure>
+          <remcom::rxapi::Double Value="1013.25"/>
+        </Pressure>
+        <RaySpacing>
+          <remcom::rxapi::Double Value="0.25"/>
+        </RaySpacing>
+        <Reflections>
+          <remcom::rxapi::Integer Value="6"/>
+        </Reflections>
+        <StudyArea>
+          <remcom::rxapi::StudyArea>
+            <Footprint>
+              <remcom::rxapi::Tuples2>
+                <X>
+                  <remcom::rxapi::DoubleArray Value="515.689 515.526 500.742 509.388 517.332 522.226 522.06 515.714"/>
+                </X>
+                <Y>
+                  <remcom::rxapi::DoubleArray Value="729.277 729.156 720.833 708.385 710.215 716.34 719.805 729.319"/>
+                </Y>
+              </remcom::rxapi::Tuples2>
+            </Footprint>
+            <MaxZ>
+              <remcom::rxapi::Double Value="8"/>
+            </MaxZ>
+            <MinZ>
+              <remcom::rxapi::Double Value="3"/>
+            </MinZ>
+          </remcom::rxapi::StudyArea>
+        </StudyArea>
+        <Temperature>
+          <remcom::rxapi::Double Value="22.199999999999999"/>
+        </Temperature>
+        <TerrainDiffractions>
+          <remcom::rxapi::Boolean Value="false"/>
+        </TerrainDiffractions>
+        <Transmissions>
+          <remcom::rxapi::Integer Value="3"/>
+        </Transmissions>
+        <UseGPU>
+          <remcom::rxapi::Boolean Value="true"/>
+        </UseGPU>
+      </remcom::rxapi::X3D>
+    </Model>
+    <OutputLocation>
+      <remcom::rxapi::String Value="Simulation 1"/>
+    </OutputLocation>
+    <OutputPrefix>
+      <remcom::rxapi::String Value="Simulation"/>
+    </OutputPrefix>
+    <PathResultsDatabase>
+      <remcom::rxapi::PathResultsDatabase>
+        <Filename>
+          <remcom::rxapi::FileDescription>
+            <Filename>
+              <remcom::rxapi::String Value="./Simulation 1/Simulation.Simulation 1.sqlite"/>
+            </Filename>
+            <FilenameChecksum>
+              <remcom::rxapi::String/>
+            </FilenameChecksum>
+          </remcom::rxapi::FileDescription>
+        </Filename>
+      </remcom::rxapi::PathResultsDatabase>
+    </PathResultsDatabase>
+    <ProjectID>
+      <remcom::rxapi::String Value="4062"/>
+    </ProjectID>
+    <Scene>
+      <remcom::rxapi::Scene>
+        <AntennaList>
+          <remcom::rxapi::AntennaList>
+            <Antenna>
+              <remcom::rxapi::Omnidirectional>
+                <CableLoss>
+                  <remcom::rxapi::Double Value="0"/>
+                </CableLoss>
+                <E_PlaneFirstNullBeamwidth>
+                  <remcom::rxapi::Double Value="180"/>
+                </E_PlaneFirstNullBeamwidth>
+                <E_PlaneHalfPowerBeamwidth>
+                  <remcom::rxapi::Double Value="90"/>
+                </E_PlaneHalfPowerBeamwidth>
+                <Gain>
+                  <remcom::rxapi::Double Value="0"/>
+                </Gain>
+                <H_PlaneFirstNullBeamwidth>
+                  <remcom::rxapi::Double Value="180"/>
+                </H_PlaneFirstNullBeamwidth>
+                <H_PlaneHalfPowerBeamwidth>
+                  <remcom::rxapi::Double Value="90"/>
+                </H_PlaneHalfPowerBeamwidth>
+                <Polarization>
+                  <remcom::rxapi::PolarizationEnum Value="Vertical"/>
+                </Polarization>
+                <PowerThreshold>
+                  <remcom::rxapi::Double Value="-250"/>
+                </PowerThreshold>
+                <Temperature>
+                  <remcom::rxapi::Double Value="293"/>
+                </Temperature>
+                <VSWR>
+                  <remcom::rxapi::Double Value="1"/>
+                </VSWR>
+                <Waveform>
+                  <remcom::rxapi::Sinusoid>
+                    <Amplitude>
+                      <remcom::rxapi::Double Value="1"/>
+                    </Amplitude>
+                    <Bandwidth>
+                      <remcom::rxapi::Double Value="1"/>
+                    </Bandwidth>
+                    <CarrierFrequency>
+                      <remcom::rxapi::Double Value="2400000000"/>
+                    </CarrierFrequency>
+                    <Dispersive>
+                      <remcom::rxapi::Boolean Value="false"/>
+                    </Dispersive>
+                    <Phase>
+                      <remcom::rxapi::Double Value="0"/>
+                    </Phase>
+                  </remcom::rxapi::Sinusoid>
+                </Waveform>
+              </remcom::rxapi::Omnidirectional>
+            </Antenna>
+          </remcom::rxapi::AntennaList>
+        </AntennaList>
+        <GeometryList>
+          <remcom::rxapi::GeometryList>
+            <Geometry>
+              <remcom::rxapi::CachedGeometry>
+                <GeometryList>
+                  <remcom::rxapi::GeometryList>
+                    <Geometry>
+                      <remcom::rxapi::FloorPlan>
+                        <GeometrySource>
+                          <remcom::rxapi::WirelessInSiteGeometry>
+                            <Filename>
+                              <remcom::rxapi::FileDescription>
+                                <Filename>
+                                  <remcom::rxapi::String Value="./floor.flp"/>
+                                </Filename>
+                                <FilenameChecksum>
+                                  <remcom::rxapi::String/>
+                                </FilenameChecksum>
+                              </remcom::rxapi::FileDescription>
+                            </Filename>
+                          </remcom::rxapi::WirelessInSiteGeometry>
+                        </GeometrySource>
+                      </remcom::rxapi::FloorPlan>
+                    </Geometry>
+                    <Geometry>
+                      <remcom::rxapi::FloorPlan>
+                        <GeometrySource>
+                          <remcom::rxapi::WirelessInSiteGeometry>
+                            <Filename>
+                              <remcom::rxapi::FileDescription>
+                                <Filename>
+                                  <remcom::rxapi::String Value="./roof.flp"/>
+                                </Filename>
+                                <FilenameChecksum>
+                                  <remcom::rxapi::String/>
+                                </FilenameChecksum>
+                              </remcom::rxapi::FileDescription>
+                            </Filename>
+                          </remcom::rxapi::WirelessInSiteGeometry>
+                        </GeometrySource>
+                      </remcom::rxapi::FloorPlan>
+                    </Geometry>
+                  </remcom::rxapi::GeometryList>
+                </GeometryList>
+                <GeometrySource>
+                  <remcom::rxapi::X3DCache>
+                    <Filename>
+                      <remcom::rxapi::FileDescription>
+                        <Filename>
+                          <remcom::rxapi::String Value="./Simulation.X3DGeometry.cache"/>
+                        </Filename>
+                        <FilenameChecksum>
+                          <remcom::rxapi::String/>
+                        </FilenameChecksum>
+                      </remcom::rxapi::FileDescription>
+                    </Filename>
+                  </remcom::rxapi::X3DCache>
+                </GeometrySource>
+              </remcom::rxapi::CachedGeometry>
+            </Geometry>
+          </remcom::rxapi::GeometryList>
+        </GeometryList>
+        <Origin>
+          <remcom::rxapi::GeographicPoint>
+            <Altitude>
+              <remcom::rxapi::Double Value="0"/>
+            </Altitude>
+            <Latitude>
+              <remcom::rxapi::Double Value="0"/>
+            </Latitude>
+            <Longitude>
+              <remcom::rxapi::Double Value="0"/>
+            </Longitude>
+          </remcom::rxapi::GeographicPoint>
+        </Origin>
+        <TxRxSetList>
+          <remcom::rxapi::TxRxSetList>
+            <TxRxSet>
+              <remcom::rxapi::PointSet>
+                <ConformToTerrain>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ConformToTerrain>
+                <ControlPoints>
+                  <remcom::rxapi::ProjectedPointList>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.95116243586114"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="714.04524770810247"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.37048836579908"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="714.31758157430238"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.78981432073078"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="714.5899154567345"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.20914027566255"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="714.86224933916674"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.62846623059426"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.13458322159897"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.04779218552596"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.40691710403109"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.46711814045773"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.67925098646333"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.88644409538949"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.95158486889545"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.30577025027139"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.22391888118659"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.72509620520316"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.49625276361883"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.14442216013481"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.76858664605106"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.56374811506657"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.04092052848318"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.98307406999834"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.31325441091542"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.67882853719658"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="714.46457368802805"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.09815446713452"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="714.73690755422786"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.51748042206623"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.00924143666009"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.93680637699799"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.28157531909221"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.3561323319297"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.55390920152445"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.77545828686141"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.82624308395657"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.19478424179317"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.0985769663888"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.61411019672494"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.37091084882104"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.03343635160684"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.64324486111218"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.4527623065386"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.9155787435443"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.87208826147025"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.18791262597654"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.29141421640202"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.46024650840866"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.71074017133378"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.73258039084089"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.40649465476434"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="714.8838996429597"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.82582058470234"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.15623350915962"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.24514653963405"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.42856739159174"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.66447249456576"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.70090127402398"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.08379844949752"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.97323515645621"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.50312440442923"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.24556903888833"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.92245035936099"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.51790292132057"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.3417763142927"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.79023680375269"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.7611024691746"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.06257081604383"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.18042842410637"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.33490469847607"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.59975437903813"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.60723858090819"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.01908033396978"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.87957246334042"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.43840628890155"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.15190634577266"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.13416077233217"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.30322559789147"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.55348670227011"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.57555946409127"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.97281265720187"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.84789334652351"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.39213861213358"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.12022722895574"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.81146456706529"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.39256111138786"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.23079052199705"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.6648949938201"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.65011647692876"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.93722887625233"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.06944243186047"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.20956275868446"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.48876858674248"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.4818967709756"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.90809454167413"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.75423065340783"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.3274204966059"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.02656453583995"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.74674645153766"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.29889841827219"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.16607240646931"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.57123230070431"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="508.86182695482944"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.72255145284817"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.28115288476738"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="715.99488531904797"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.70047883969909"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.26721920148009"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.11980479463085"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.53955308391232"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.53913074956256"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.81188696634456"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.95845670449432"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.08422084877668"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.37778265942603"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.35655473120892"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.7971086143578"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.62888861364115"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.21643476923964"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.90122262593218"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.6357607241714"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.17355650836441"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.05508667910317"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.44589039079665"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.47441263403493"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.71822427322877"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.89373858896658"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.99055815566101"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="508.58949307239726"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.14187740777982"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.0088190023352"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.41421127397973"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.42814495726691"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.68654515641185"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.84747091219867"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.95887903884409"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.26679686713038"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.23121292127621"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.68612282206209"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.50354680370845"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.10544877699385"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.77588068614068"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.52477473192556"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.0482145685728"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.94410088680752"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.32054858086394"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.36342684173928"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.59288246329618"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.78275279667093"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.8652163457283"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.2020787516027"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.13755022816053"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.62140470653446"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.40988411059277"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.41378893962991"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.92287275864021"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.83311489456167"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.19520664107233"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.67176700437528"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.73987453579571"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.09109295930705"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.01220841822783"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.51041891423881"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.28454230066006"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.92974486917046"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.5568761830923"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.34907082410223"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.82921006552442"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.14145505719773"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.34219871357186"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.56078101212944"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.6145325960041"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.3994331219431"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.15920049072736"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.81875907687487"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.43153437315959"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.23808503180658"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.70386825559183"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.65741098673834"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.97620213802395"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.07673694166999"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="720.24853602045619"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.86912104490659"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.76152486845388"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.28844699983836"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.033858750886"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.12709910965202"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.57852664560937"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.54642506458373"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.85086052804149"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="511.96575101951549"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="720.12319441047373"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.3850769744472"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="720.39552829290596"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.80440292937897"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="720.66786217533809"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.59678716247441"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.18085082338553"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="510.01611311740618"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.45318470581776"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.32445328004223"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.60017677831729"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.74377923497394"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.87251066074953"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.05211939761006"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="720.01950273324906"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.47144535254176"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="720.29183661568118"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                  </remcom::rxapi::ProjectedPointList>
+                </ControlPoints>
+                <OutputID>
+                  <remcom::rxapi::Integer Value="1"/>
+                </OutputID>
+                <Receiver>
+                  <remcom::rxapi::Receiver>
+                    <Antenna>
+                      <remcom::rxapi::Omnidirectional>
+                        <CableLoss>
+                          <remcom::rxapi::Double Value="0"/>
+                        </CableLoss>
+                        <E_PlaneFirstNullBeamwidth>
+                          <remcom::rxapi::Double Value="180"/>
+                        </E_PlaneFirstNullBeamwidth>
+                        <E_PlaneHalfPowerBeamwidth>
+                          <remcom::rxapi::Double Value="90"/>
+                        </E_PlaneHalfPowerBeamwidth>
+                        <Gain>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Gain>
+                        <H_PlaneFirstNullBeamwidth>
+                          <remcom::rxapi::Double Value="180"/>
+                        </H_PlaneFirstNullBeamwidth>
+                        <H_PlaneHalfPowerBeamwidth>
+                          <remcom::rxapi::Double Value="90"/>
+                        </H_PlaneHalfPowerBeamwidth>
+                        <Polarization>
+                          <remcom::rxapi::PolarizationEnum Value="Vertical"/>
+                        </Polarization>
+                        <PowerThreshold>
+                          <remcom::rxapi::Double Value="-250"/>
+                        </PowerThreshold>
+                        <Temperature>
+                          <remcom::rxapi::Double Value="293"/>
+                        </Temperature>
+                        <VSWR>
+                          <remcom::rxapi::Double Value="1"/>
+                        </VSWR>
+                        <Waveform>
+                          <remcom::rxapi::Sinusoid>
+                            <Amplitude>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Amplitude>
+                            <Bandwidth>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Bandwidth>
+                            <CarrierFrequency>
+                              <remcom::rxapi::Double Value="2400000000"/>
+                            </CarrierFrequency>
+                            <Dispersive>
+                              <remcom::rxapi::Boolean Value="false"/>
+                            </Dispersive>
+                            <Phase>
+                              <remcom::rxapi::Double Value="0"/>
+                            </Phase>
+                          </remcom::rxapi::Sinusoid>
+                        </Waveform>
+                      </remcom::rxapi::Omnidirectional>
+                    </Antenna>
+                    <AntennaAlignment>
+                      <remcom::rxapi::SphericalAlignment>
+                        <Phi>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Phi>
+                        <Roll>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Roll>
+                        <Theta>
+                          <remcom::rxapi::Double Value="90"/>
+                        </Theta>
+                      </remcom::rxapi::SphericalAlignment>
+                    </AntennaAlignment>
+                    <CollectionRadius>
+                      <remcom::rxapi::Double Value="0"/>
+                    </CollectionRadius>
+                  </remcom::rxapi::Receiver>
+                </Receiver>
+                <ShortDescription>
+                  <remcom::rxapi::String Value="RxTx1"/>
+                </ShortDescription>
+                <Transmitter>
+                  <remcom::rxapi::Transmitter>
+                    <Antenna>
+                      <remcom::rxapi::Omnidirectional>
+                        <CableLoss>
+                          <remcom::rxapi::Double Value="0"/>
+                        </CableLoss>
+                        <E_PlaneFirstNullBeamwidth>
+                          <remcom::rxapi::Double Value="180"/>
+                        </E_PlaneFirstNullBeamwidth>
+                        <E_PlaneHalfPowerBeamwidth>
+                          <remcom::rxapi::Double Value="90"/>
+                        </E_PlaneHalfPowerBeamwidth>
+                        <Gain>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Gain>
+                        <H_PlaneFirstNullBeamwidth>
+                          <remcom::rxapi::Double Value="180"/>
+                        </H_PlaneFirstNullBeamwidth>
+                        <H_PlaneHalfPowerBeamwidth>
+                          <remcom::rxapi::Double Value="90"/>
+                        </H_PlaneHalfPowerBeamwidth>
+                        <Polarization>
+                          <remcom::rxapi::PolarizationEnum Value="Vertical"/>
+                        </Polarization>
+                        <PowerThreshold>
+                          <remcom::rxapi::Double Value="-250"/>
+                        </PowerThreshold>
+                        <Temperature>
+                          <remcom::rxapi::Double Value="293"/>
+                        </Temperature>
+                        <VSWR>
+                          <remcom::rxapi::Double Value="1"/>
+                        </VSWR>
+                        <Waveform>
+                          <remcom::rxapi::Sinusoid>
+                            <Amplitude>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Amplitude>
+                            <Bandwidth>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Bandwidth>
+                            <CarrierFrequency>
+                              <remcom::rxapi::Double Value="2400000000"/>
+                            </CarrierFrequency>
+                            <Dispersive>
+                              <remcom::rxapi::Boolean Value="false"/>
+                            </Dispersive>
+                            <Phase>
+                              <remcom::rxapi::Double Value="0"/>
+                            </Phase>
+                          </remcom::rxapi::Sinusoid>
+                        </Waveform>
+                      </remcom::rxapi::Omnidirectional>
+                    </Antenna>
+                    <AntennaAlignment>
+                      <remcom::rxapi::SphericalAlignment>
+                        <Phi>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Phi>
+                        <Roll>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Roll>
+                        <Theta>
+                          <remcom::rxapi::Double Value="90"/>
+                        </Theta>
+                      </remcom::rxapi::SphericalAlignment>
+                    </AntennaAlignment>
+                    <InputPower>
+                      <remcom::rxapi::Double Value="0"/>
+                    </InputPower>
+                  </remcom::rxapi::Transmitter>
+                </Transmitter>
+                <UseAPGAcceleration>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </UseAPGAcceleration>
+              </remcom::rxapi::PointSet>
+            </TxRxSet>
+            <TxRxSet>
+              <remcom::rxapi::PointSet>
+                <ConformToTerrain>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ConformToTerrain>
+                <ControlPoints>
+                  <remcom::rxapi::ProjectedPointList>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="505.47292634589849"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.83083279309062"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="505.74652511927468"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.41233104732714"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="506.02012389265087"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.99382930156378"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="506.29372266602712"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.5753275558003"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="506.56732150463432"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.15682571025832"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="505.89142811660656"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.10443158277462"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="506.16502688998276"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.68592983701114"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="506.43862566335901"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.26742809124767"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="506.7122244367352"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.8489263454843"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="506.9858232753424"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.43042449994221"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="506.30992986237004"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.37803035615082"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="506.58352863574623"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.95952861038734"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="506.85712740912243"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.54102686462386"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="507.13072618249862"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.12252511886049"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="507.40432502110582"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.7040232733184"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="506.72843160813346"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.65162912952701"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="507.00203038150966"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.23312738376353"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="507.27562915488585"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.81462563800005"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="507.54922792826204"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.39612389223669"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="507.82282676686924"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="716.97762204669459"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="507.14693325411827"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.92522783767208"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="507.42053202749452"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.50672609190872"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="507.69413080087071"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.08822434614524"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="507.9677295742469"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.66972260038187"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="508.2413284128541"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.25122075483978"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="507.56543499988175"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.19882661104828"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="507.83903377325794"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.78032486528491"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="508.11263254663413"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.36182311952143"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="508.38623132001032"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.94332137375807"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="508.65983015861752"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.52481952821597"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="507.98393674564517"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.47242538442447"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="508.25753551902136"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.0539236386611"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="508.53113429239755"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.63542189289763"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="508.80473306577375"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.21692014713426"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.078331904381"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="717.79841830159216"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="508.40243849140859"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.74602415780066"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="508.67603726478478"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.3275224120373"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="508.94963603816097"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.90902066627382"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.22323481153717"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.49051892051045"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="509.49683365014442"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="718.07201707496836"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                  </remcom::rxapi::ProjectedPointList>
+                </ControlPoints>
+                <OutputID>
+                  <remcom::rxapi::Integer Value="2"/>
+                </OutputID>
+                <Receiver>
+                  <remcom::rxapi::Receiver>
+                    <Antenna>
+                      <remcom::rxapi::Omnidirectional>
+                        <CableLoss>
+                          <remcom::rxapi::Double Value="0"/>
+                        </CableLoss>
+                        <E_PlaneFirstNullBeamwidth>
+                          <remcom::rxapi::Double Value="180"/>
+                        </E_PlaneFirstNullBeamwidth>
+                        <E_PlaneHalfPowerBeamwidth>
+                          <remcom::rxapi::Double Value="90"/>
+                        </E_PlaneHalfPowerBeamwidth>
+                        <Gain>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Gain>
+                        <H_PlaneFirstNullBeamwidth>
+                          <remcom::rxapi::Double Value="180"/>
+                        </H_PlaneFirstNullBeamwidth>
+                        <H_PlaneHalfPowerBeamwidth>
+                          <remcom::rxapi::Double Value="90"/>
+                        </H_PlaneHalfPowerBeamwidth>
+                        <Polarization>
+                          <remcom::rxapi::PolarizationEnum Value="Vertical"/>
+                        </Polarization>
+                        <PowerThreshold>
+                          <remcom::rxapi::Double Value="-250"/>
+                        </PowerThreshold>
+                        <Temperature>
+                          <remcom::rxapi::Double Value="293"/>
+                        </Temperature>
+                        <VSWR>
+                          <remcom::rxapi::Double Value="1"/>
+                        </VSWR>
+                        <Waveform>
+                          <remcom::rxapi::Sinusoid>
+                            <Amplitude>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Amplitude>
+                            <Bandwidth>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Bandwidth>
+                            <CarrierFrequency>
+                              <remcom::rxapi::Double Value="2400000000"/>
+                            </CarrierFrequency>
+                            <Dispersive>
+                              <remcom::rxapi::Boolean Value="false"/>
+                            </Dispersive>
+                            <Phase>
+                              <remcom::rxapi::Double Value="0"/>
+                            </Phase>
+                          </remcom::rxapi::Sinusoid>
+                        </Waveform>
+                      </remcom::rxapi::Omnidirectional>
+                    </Antenna>
+                    <AntennaAlignment>
+                      <remcom::rxapi::SphericalAlignment>
+                        <Phi>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Phi>
+                        <Roll>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Roll>
+                        <Theta>
+                          <remcom::rxapi::Double Value="90"/>
+                        </Theta>
+                      </remcom::rxapi::SphericalAlignment>
+                    </AntennaAlignment>
+                    <CollectionRadius>
+                      <remcom::rxapi::Double Value="0"/>
+                    </CollectionRadius>
+                  </remcom::rxapi::Receiver>
+                </Receiver>
+                <ShortDescription>
+                  <remcom::rxapi::String Value="RxTx2"/>
+                </ShortDescription>
+                <Transmitter>
+                  <remcom::rxapi::Transmitter>
+                    <Antenna>
+                      <remcom::rxapi::Omnidirectional>
+                        <CableLoss>
+                          <remcom::rxapi::Double Value="0"/>
+                        </CableLoss>
+                        <E_PlaneFirstNullBeamwidth>
+                          <remcom::rxapi::Double Value="180"/>
+                        </E_PlaneFirstNullBeamwidth>
+                        <E_PlaneHalfPowerBeamwidth>
+                          <remcom::rxapi::Double Value="90"/>
+                        </E_PlaneHalfPowerBeamwidth>
+                        <Gain>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Gain>
+                        <H_PlaneFirstNullBeamwidth>
+                          <remcom::rxapi::Double Value="180"/>
+                        </H_PlaneFirstNullBeamwidth>
+                        <H_PlaneHalfPowerBeamwidth>
+                          <remcom::rxapi::Double Value="90"/>
+                        </H_PlaneHalfPowerBeamwidth>
+                        <Polarization>
+                          <remcom::rxapi::PolarizationEnum Value="Vertical"/>
+                        </Polarization>
+                        <PowerThreshold>
+                          <remcom::rxapi::Double Value="-250"/>
+                        </PowerThreshold>
+                        <Temperature>
+                          <remcom::rxapi::Double Value="293"/>
+                        </Temperature>
+                        <VSWR>
+                          <remcom::rxapi::Double Value="1"/>
+                        </VSWR>
+                        <Waveform>
+                          <remcom::rxapi::Sinusoid>
+                            <Amplitude>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Amplitude>
+                            <Bandwidth>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Bandwidth>
+                            <CarrierFrequency>
+                              <remcom::rxapi::Double Value="2400000000"/>
+                            </CarrierFrequency>
+                            <Dispersive>
+                              <remcom::rxapi::Boolean Value="false"/>
+                            </Dispersive>
+                            <Phase>
+                              <remcom::rxapi::Double Value="0"/>
+                            </Phase>
+                          </remcom::rxapi::Sinusoid>
+                        </Waveform>
+                      </remcom::rxapi::Omnidirectional>
+                    </Antenna>
+                    <AntennaAlignment>
+                      <remcom::rxapi::SphericalAlignment>
+                        <Phi>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Phi>
+                        <Roll>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Roll>
+                        <Theta>
+                          <remcom::rxapi::Double Value="90"/>
+                        </Theta>
+                      </remcom::rxapi::SphericalAlignment>
+                    </AntennaAlignment>
+                    <InputPower>
+                      <remcom::rxapi::Double Value="0"/>
+                    </InputPower>
+                  </remcom::rxapi::Transmitter>
+                </Transmitter>
+                <UseAPGAcceleration>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </UseAPGAcceleration>
+              </remcom::rxapi::PointSet>
+            </TxRxSet>
+            <TxRxSet>
+              <remcom::rxapi::PointSet>
+                <ConformToTerrain>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ConformToTerrain>
+                <ControlPoints>
+                  <remcom::rxapi::ProjectedPointList>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.64380644056314"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="719.84022935947667"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.37055327389214"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="720.25895688031392"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.09730012350826"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="720.67768437619316"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.82404697312438"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.09641187207239"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.5507938227405"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.51513936795163"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.27754067235662"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.93386686383087"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.00428752197274"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.35259435971011"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.73103437158886"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.77132185558935"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.45778122120498"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.19004935146859"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.1845280708211"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.60877684734783"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.06253391148425"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="720.11348249357331"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.78928074481325"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="720.53221001441068"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.51602759442937"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="720.95093751028992"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.24277444404549"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.36966500616916"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.96952129366161"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.7883925020484"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.69626814327773"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.20711999792752"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.42301499289385"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.62584749380676"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.14976184250997"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.044574989686"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.87650869212609"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.46330248556524"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="512.60325554174221"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.88202998144448"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.48126140736349"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="720.38673564395719"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.20800824069249"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="720.80546316479456"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.93475509030861"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.2241906606738"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.66150193992473"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.64291815655304"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.38824878954085"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.06164565243228"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.11499563915697"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.4803731483114"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.84174248877309"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.89910064419064"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.56848933838921"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.31782814006988"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.29523618800533"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.73655563594912"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.02198303762145"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="724.15528313182836"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.89998890324273"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="720.65998879434107"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.62673573657173"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.07871631517844"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.35348258618785"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.49744381105768"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.08022943580397"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.91617130693692"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.80697628542009"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.33489880281604"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.53372313503621"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.75362629869528"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.26046998465233"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.17235379457452"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="513.98721683426845"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.59108129045376"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.31871649895436"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="720.93324200987354"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.04546333228336"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.3519695307109"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.77221018189948"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.77069702659014"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.4989570315156"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.18942452246938"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.22570388113172"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.60815201834862"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.95245073074784"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.02687951422786"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.67919758036396"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.4456070101071"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.40594442998008"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.86433450598633"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.7374439948336"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.20649516025742"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.4641908281626"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.62522268109478"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.19093767777872"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.04395017697402"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.91768452739484"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.46267767285326"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.64443137701096"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.8814051687325"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.37117822662708"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.30013266461174"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.0979250762432"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.71886016049098"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="514.82467192585932"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="724.1375876563701"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="517.15617149071284"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.4797483106413"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.88291832404184"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.89847583147866"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.60966517365796"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.3172033273579"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.33641202327408"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.73593082323714"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.0631588728902"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.15465831911638"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.78990572250632"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.57338581499562"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.51665257212244"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.99211331087474"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.24339942173856"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="724.41084080675398"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="517.57489898659207"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="721.75300146102518"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="517.30164581992108"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.17172898186254"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="517.0283926695372"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.59045647774178"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.75513951915332"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.00918397362102"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.48188636876944"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.42791146950026"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.20863321838556"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.8466389653795"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.93538006800168"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="724.26536646125862"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="515.6621269176178"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="724.68409395713786"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="517.99362648247131"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.02625461140906"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="517.7203733158002"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.44498213224642"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="517.44712016541632"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="722.86370962812566"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="517.17386701503256"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.2824371240049"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.90061386464868"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="723.70116461988414"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.6273607142648"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="724.11989211576326"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.35410756388092"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="724.5386196116425"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="516.08085441349704"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="724.95734710752174"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="5"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                  </remcom::rxapi::ProjectedPointList>
+                </ControlPoints>
+                <OutputID>
+                  <remcom::rxapi::Integer Value="3"/>
+                </OutputID>
+                <Receiver>
+                  <remcom::rxapi::Receiver>
+                    <Antenna>
+                      <remcom::rxapi::Omnidirectional>
+                        <CableLoss>
+                          <remcom::rxapi::Double Value="0"/>
+                        </CableLoss>
+                        <E_PlaneFirstNullBeamwidth>
+                          <remcom::rxapi::Double Value="180"/>
+                        </E_PlaneFirstNullBeamwidth>
+                        <E_PlaneHalfPowerBeamwidth>
+                          <remcom::rxapi::Double Value="90"/>
+                        </E_PlaneHalfPowerBeamwidth>
+                        <Gain>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Gain>
+                        <H_PlaneFirstNullBeamwidth>
+                          <remcom::rxapi::Double Value="180"/>
+                        </H_PlaneFirstNullBeamwidth>
+                        <H_PlaneHalfPowerBeamwidth>
+                          <remcom::rxapi::Double Value="90"/>
+                        </H_PlaneHalfPowerBeamwidth>
+                        <Polarization>
+                          <remcom::rxapi::PolarizationEnum Value="Vertical"/>
+                        </Polarization>
+                        <PowerThreshold>
+                          <remcom::rxapi::Double Value="-250"/>
+                        </PowerThreshold>
+                        <Temperature>
+                          <remcom::rxapi::Double Value="293"/>
+                        </Temperature>
+                        <VSWR>
+                          <remcom::rxapi::Double Value="1"/>
+                        </VSWR>
+                        <Waveform>
+                          <remcom::rxapi::Sinusoid>
+                            <Amplitude>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Amplitude>
+                            <Bandwidth>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Bandwidth>
+                            <CarrierFrequency>
+                              <remcom::rxapi::Double Value="2400000000"/>
+                            </CarrierFrequency>
+                            <Dispersive>
+                              <remcom::rxapi::Boolean Value="false"/>
+                            </Dispersive>
+                            <Phase>
+                              <remcom::rxapi::Double Value="0"/>
+                            </Phase>
+                          </remcom::rxapi::Sinusoid>
+                        </Waveform>
+                      </remcom::rxapi::Omnidirectional>
+                    </Antenna>
+                    <AntennaAlignment>
+                      <remcom::rxapi::SphericalAlignment>
+                        <Phi>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Phi>
+                        <Roll>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Roll>
+                        <Theta>
+                          <remcom::rxapi::Double Value="90"/>
+                        </Theta>
+                      </remcom::rxapi::SphericalAlignment>
+                    </AntennaAlignment>
+                    <CollectionRadius>
+                      <remcom::rxapi::Double Value="0"/>
+                    </CollectionRadius>
+                  </remcom::rxapi::Receiver>
+                </Receiver>
+                <ShortDescription>
+                  <remcom::rxapi::String Value="RxTx3"/>
+                </ShortDescription>
+                <Transmitter>
+                  <remcom::rxapi::Transmitter>
+                    <Antenna>
+                      <remcom::rxapi::Omnidirectional>
+                        <CableLoss>
+                          <remcom::rxapi::Double Value="0"/>
+                        </CableLoss>
+                        <E_PlaneFirstNullBeamwidth>
+                          <remcom::rxapi::Double Value="180"/>
+                        </E_PlaneFirstNullBeamwidth>
+                        <E_PlaneHalfPowerBeamwidth>
+                          <remcom::rxapi::Double Value="90"/>
+                        </E_PlaneHalfPowerBeamwidth>
+                        <Gain>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Gain>
+                        <H_PlaneFirstNullBeamwidth>
+                          <remcom::rxapi::Double Value="180"/>
+                        </H_PlaneFirstNullBeamwidth>
+                        <H_PlaneHalfPowerBeamwidth>
+                          <remcom::rxapi::Double Value="90"/>
+                        </H_PlaneHalfPowerBeamwidth>
+                        <Polarization>
+                          <remcom::rxapi::PolarizationEnum Value="Vertical"/>
+                        </Polarization>
+                        <PowerThreshold>
+                          <remcom::rxapi::Double Value="-250"/>
+                        </PowerThreshold>
+                        <Temperature>
+                          <remcom::rxapi::Double Value="293"/>
+                        </Temperature>
+                        <VSWR>
+                          <remcom::rxapi::Double Value="1"/>
+                        </VSWR>
+                        <Waveform>
+                          <remcom::rxapi::Sinusoid>
+                            <Amplitude>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Amplitude>
+                            <Bandwidth>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Bandwidth>
+                            <CarrierFrequency>
+                              <remcom::rxapi::Double Value="2400000000"/>
+                            </CarrierFrequency>
+                            <Dispersive>
+                              <remcom::rxapi::Boolean Value="false"/>
+                            </Dispersive>
+                            <Phase>
+                              <remcom::rxapi::Double Value="0"/>
+                            </Phase>
+                          </remcom::rxapi::Sinusoid>
+                        </Waveform>
+                      </remcom::rxapi::Omnidirectional>
+                    </Antenna>
+                    <AntennaAlignment>
+                      <remcom::rxapi::SphericalAlignment>
+                        <Phi>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Phi>
+                        <Roll>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Roll>
+                        <Theta>
+                          <remcom::rxapi::Double Value="90"/>
+                        </Theta>
+                      </remcom::rxapi::SphericalAlignment>
+                    </AntennaAlignment>
+                    <InputPower>
+                      <remcom::rxapi::Double Value="0"/>
+                    </InputPower>
+                  </remcom::rxapi::Transmitter>
+                </Transmitter>
+                <UseAPGAcceleration>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </UseAPGAcceleration>
+              </remcom::rxapi::PointSet>
+            </TxRxSet>
+          </remcom::rxapi::TxRxSetList>
+        </TxRxSetList>
+      </remcom::rxapi::Scene>
+    </Scene>
+  </remcom::rxapi::Job>
+</InSite>
