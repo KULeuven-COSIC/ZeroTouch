@@ -20,4 +20,4 @@ Each folder contains a `README.md` file that provides detailed instructions and 
 
 Additional visualisations and results from the simulations, due to size constraints, have been uploaded and can be accessed [here](https://mega.nz/folder/xxclXYiR#Do4h264nC4XnJwbCjHicMA). 
 
-Furthermore, a video showcasing the room setup used in the simulations is also available at the same link. These resources provide further insights into the experimental environment and results, offering a comprehensive view of the `ZeroTouch` system and its evaluation.
+Furthermore, a video showcasing the apartment setup used in the simulations is also available at the same link. These resources provide further insights into the experimental environment and results, offering a comprehensive view of the `ZeroTouch` system and its evaluation.
