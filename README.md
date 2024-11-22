@@ -15,3 +15,9 @@ This repository is organised into two primary parts:
 ## Further Information
 
 Each folder contains a `README.md` file that provides detailed instructions and information specific to the contents and procedures within that folder. Please refer to these files for comprehensive guidance on how to run the simulations.
+
+## Additional Visualisations and Resources
+
+Additional visualisations and results from the simulations, due to size constraints, have been uploaded and can be accessed [here](https://mega.nz/folder/xxclXYiR#Do4h264nC4XnJwbCjHicMA). 
+
+Furthermore, a video showcasing the room setup used in the simulations is also available at the same link. These resources provide further insights into the experimental environment and results, offering a comprehensive view of the `ZeroTouch` system and its evaluation.
