@@ -6,7 +6,9 @@ This folder contains MATLAB scripts used for processing, analysing, and visualis
 
 - **draw_figure2.m** and **draw_figure3.m**: These scripts generate figures of the apartment, including anchor nodes and results derived from the simulations.
 - **plot_rooms.m**: This script visualises the apartment layout.
+- **plotting.m**: Generates specific figures presented in the paper.  
 - **load_measurements.m**: Loads RSS measurements obtained from Wireless InSite simulations for further processing.
+- **power_sweep.m**: Performs power sweep analysis as presented in the paper. 
 - **neural_network_autoencoder_anomaly_detection_final.m**: Implements the final autoencoder for anomaly detection.
 - **neural_network_perceptron.m**: Implements the final supervised learning model using a perceptron.
 
