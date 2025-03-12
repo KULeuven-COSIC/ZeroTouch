@@ -6,6 +6,7 @@ This folder contains the measurement data generated from the Wireless InSite sim
 
 - **Inside**: This folder contains the measurements obtained from simulations with transmitters located inside the apartment.
 - **Outside**: This folder contains the measurements obtained from simulations with transmitters positioned outside the apartment.
+- **Plotting Data**: Includes `.mat` files required to generate specific plots presented in the paper.
 
 These measurement files are utilised as input for the MATLAB implementation and analysis.
 
