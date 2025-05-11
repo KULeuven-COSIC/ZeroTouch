@@ -24,4 +24,4 @@ Furthermore, a video showcasing the apartment setup used in the simulations is a
 
 ## Acknowledgments
 
-This work was supported in part by CyberSecurity Research Flanders with reference number VR20192203, and by the European Union’s Horizon Research and Innovation program under grant agreement No.\ 101119747 (TELEMETRY).
+This work was supported in part by CyberSecurity Research Flanders with reference number VR20192203, and by the European Union’s Horizon Research and Innovation program under grant agreement No. 101119747 (TELEMETRY).
