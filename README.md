@@ -22,6 +22,21 @@ Additional visualisations and results from the simulations, due to size constrai
 
 Furthermore, a video showcasing the apartment setup used in the simulations is also available at the same link. These resources provide further insights into the experimental environment and results, offering a comprehensive view of the `ZeroTouch` system and its evaluation.
 
+## Citation
+
+Full version of the paper can be found [here](https://doi.org/10.1145/3734436.3734448). If you find this work useful, please consider citing the paper:
+
+```bibtex
+@inproceedings{ZeroTouch,
+    author    = {Antonijevi\'{c}, Nikola and Duttagupta, Sayon and Singel\'{e}e, Dave and R\'{u}a, Enrique Argones and Preneel, Bart},
+    title     = {{ZeroTouch: Reinforcing RSS for Secure Geofencing}},
+    doi       = {10.1145/3734436.3734448},
+    booktitle = {Proceedings of the 30th ACM Symposium on Access Control Models and Technologies},
+    series    = {SACMAT '25},
+    year      = {2025}
+}
+```
+
 ## Acknowledgments
 
 This work was supported in part by CyberSecurity Research Flanders with reference number VR20192203, and by the European Union’s Horizon Research and Innovation program under grant agreement No. 101119747 (TELEMETRY).
